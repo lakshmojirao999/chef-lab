@@ -51,7 +51,7 @@ vagrant ssh chef-workstation
 ### Chef-dk installation on chef-workstation(ubuntu)
 ```
 	VER="2.4.17"
-	wget https://packages.chef.io/files/stable/chefdk/${VER}/ubuntu/18.04/chefdk_${VER}-1_amd64.deb
+	wget https://packages.chef.io/files/stable/chefdk/${VER}/ubuntu/16.04/chefdk_${VER}-1_amd64.deb
 	sudo dpkg -i chefdk_${VER}-1_amd64.deb
 	echo 'eval "$(chef shell-init bash)"' >> ~/.bash_profile
 	source ~/.bash_profile
